@@ -12,17 +12,17 @@ const Home = props => {
         <div>
             
             <Navbar bg="dark" variant="Blue">
-                <Navbar.Brand href="/">Home</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="/Demacia">Demacia</Nav.Link>
-                    <Nav.Link href="/Noxus">Noxus</Nav.Link>
-                    <Nav.Link href="/Ionia">Ionia</Nav.Link>
-                    <Nav.Link href="/Piltover">Piltover</Nav.Link>
-                    <Nav.Link href="/Freljord">Freljord</Nav.Link>
-                    <Nav.Link href="/Zaun">Zaun</Nav.Link>
+                <h5> <Nav.Link href="/Main">Home</Nav.Link></h5>
+                <h5> <Nav.Link href="/Demacia">Demacia</Nav.Link></h5>
+                <h5><Nav.Link href="/Noxus">Noxus</Nav.Link></h5>
+                  <h5><Nav.Link href="/Ionia">Ionia</Nav.Link></h5>
+                  <h5><Nav.Link href="/Piltover">Piltover</Nav.Link></h5>
+                  <h5><Nav.Link href="/Freljord">Freljord</Nav.Link></h5>
+                  <h5><Nav.Link href="/Zaun">Zaun</Nav.Link></h5>
                 
                 </Nav>
-                <h3>League of Legends</h3>
+                <h5>League of Legends</h5>
                 <Form inline>
                     <Button variant="outline-info" onClick={logout}>Logout</Button>
                 </Form>

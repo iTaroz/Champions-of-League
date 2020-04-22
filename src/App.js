@@ -5,6 +5,14 @@ import './App.css';
 import Login from './components/Login';
 import Home from './components/Home';
 import fire from './setting/fire';
+import './components/Demacia';
+import Demacia from './components/Demacia';
+import Noxus from './components/Noxus';
+import Ionia from './components/Ionia';
+import Freljord from './components/Freljord';
+import Zaun from './components/Zaun';
+import Piltover from './components/Piltover';
+import Main from './components/Main';
 
 class App extends Component {
   
@@ -50,12 +58,13 @@ class App extends Component {
         <div>
           <Route exact path="/" component={Home} />
           <Route path="/Login" component={Home} />
-          <Route path="/Demacia" component={Home} />
-          <Route path="/Noxus" component={Home} />
-          <Route path="/Ionia" component={Home} />
-          <Route path="/Freljord" component={Home} />
-          <Route path="/Zaun" component={Home} />
-          <Route path="/Piltover" component={Home} />
+          <Route path="/Main" component={Main} />
+          <Route path="/Demacia" component={Demacia} />
+          <Route path="/Noxus" component={Noxus} />
+          <Route path="/Ionia" component={Ionia} />
+          <Route path="/Freljord" component={Freljord} />
+          <Route path="/Zaun" component={Zaun} />
+          <Route path="/Piltover" component={Piltover} />
         </div>
       </div>
     )
