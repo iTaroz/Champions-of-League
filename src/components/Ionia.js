@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Home from './Home';
+import Menu from './Menu';
 class Ionia extends Component {
     render() {
       return (
         <div>
-          <Home/>
+          <Menu/>
           <h1>Hello</h1>
           
         </div>

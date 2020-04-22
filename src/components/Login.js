@@ -21,7 +21,6 @@ const Login = () => {
         })
     }
 
-
     const signup = e => {
 
         e.preventDefault()
@@ -46,8 +45,8 @@ const Login = () => {
                                 <MDBInput label="Your password" group type="password" name="password" validate onChange={(e) => setPassword(e.target.value)} />
                             </div>
                             <div className="text-center">
-                                <MDBBtn color="primary" onClick={login}>Login</MDBBtn>
-                                <MDBBtn color="primary" onClick={signup}>Sign-up</MDBBtn>
+                                <MDBBtn color="light" onClick={login}>Login</MDBBtn>
+                                <MDBBtn color="dark" onClick={signup}>Sign-up</MDBBtn>
                             </div>
                         </form>
                     </MDBCol>

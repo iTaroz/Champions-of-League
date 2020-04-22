@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Route,BrowserRouter,Link,Router } from 'react-router-dom';
-import logo from './logo.jpg';
 import './App.css';
 import Login from './components/Login';
-import Home from './components/Home';
+import Menu from './components/Menu';
 import fire from './setting/fire';
 import './components/Demacia';
 import Demacia from './components/Demacia';
@@ -43,7 +42,6 @@ class App extends Component {
           <div className="App">
       <header className="App-header">
         <div><Login/></div>
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p><br></br>
           สวัสดีชาว Summonner อยากรู้เรื่องราวของอาณาจักรต่างๆ ในเกมส์ League of Legends ไหมเข้ามาสิ 
         </p>
@@ -56,8 +54,8 @@ class App extends Component {
     return (
       <div>
         <div>
-          <Route exact path="/" component={Home} />
-          <Route path="/Login" component={Home} />
+          <Route exact path="/" component={Main} />
+          <Route path="/Login" component={Menu} />
           <Route path="/Main" component={Main} />
           <Route path="/Demacia" component={Demacia} />
           <Route path="/Noxus" component={Noxus} />
@@ -69,18 +67,7 @@ class App extends Component {
       </div>
     )
   }
-//   render() {
-//   return (
-    // <div className="App">
-    //   <header className="App-header"><Login/>
-    //    <img src={logo} className="App-logo" alt="logo" />
-    //     <p><br></br>
-    //       สวัสดีชาว Summonner อยากรู้เรื่องราวของอาณาจักรต่างในเกมส์นี้ไหม เข้ามาสิ 
-    //     </p>
-    //   </header>
-    // </div>  
-//   )
-// }
+
 }
 
 export default App;

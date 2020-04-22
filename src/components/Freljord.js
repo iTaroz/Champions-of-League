@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Home from './Home';
+import Menu from './Menu';
 class Freljord extends Component {
     render() {
       return (
         <div>
-          <Home/>
+          <Menu/>
           <h1>Hello</h1>
           
         </div>

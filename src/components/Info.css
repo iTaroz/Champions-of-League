@@ -1,0 +1,27 @@
+App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .set-bg {
+    background-color:rgba(83, 228, 167, 0.911);
+    height: 100vmax;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+  }
+  
+  .map{
+      height: 34vmax;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .game{
+      color: black;
+  }
