@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, Button, Form} from 'react-bootstrap';
+import { Nav, Navbar, DropdownButton, Dropdown} from 'react-bootstrap';
 import fire from '../setting/fire';
 import './Info.css';
 
@@ -24,9 +24,11 @@ const Menu = props => {
                   <h5><Nav.Link href="/Zaun">Zaun</Nav.Link></h5>
                 </Nav>
                 <h5 className ='game'>League of Legends</h5>
-                <Form inline>
-                    <Button variant="outline-info" onClick={logout} >Logout</Button>
-                </Form>
+                <DropdownButton id="dropdown-basic-button" title="Menu">
+                <Dropdown.Item href="/">Champion</Dropdown.Item>
+                <Dropdown.Item href="/Aboutme">About me</Dropdown.Item>
+                <Dropdown.Item onClick={logout}>Logout</Dropdown.Item>
+               </DropdownButton>
             </Navbar>
         </div>
     )
