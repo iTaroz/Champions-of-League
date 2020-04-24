@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import Menu from './Menu';
 import './Info.css'
 import Rune from './img/runeterra.jpg'
+import zoe from './img/zoe.jpg'
+import zed from './img/zed.jpg'
+import ash from './img/ash.jpg'
+import ez from './img/ez.jpg'
+import elise from './img/elise.jpg'
+import annie from './img/annie.jpg'
+import cait from './img/cait.jpg'
+import blitz from './img/blitz.jpg'
+import darius from './img/darius.jpg'
+import gp from './img/gp.jpg'
+import garen from './img/garen.jpg'
+import veigar from './img/veigar.jpg'
+
 class Main extends Component {
     render() {
       return (
@@ -31,7 +44,12 @@ class Main extends Component {
 <br/>เพื่อที่จะใช้เป็นตัวกลางในการแก้ปัญหาความขัดแย้งต่างๆ บนแผ่นดิน Valoran องค์กร League of Legends ตั้งอยู่ที่ The Institute of War (สถาบันการทำสงครามของแผ่นดิน Valoran) 
 <br/>และได้รับมอบอำนาจจากรัฐบาลให้ตัดสินผลลัพธ์ของปัญหาทางการเมืองต่างๆ ทั้งหมด จากการแข่งขัน League of Legends หรือก็คือการเล่นของพวกเราเหล่าผู้เล่นนั่นเอง
 </p>
-<br/><h4>ภาพตัวอย่างแชมป์เปี้ยนต่าง ๆ ที่อาศัยอยู่ใน Runeterra</h4>
+<br/><h4 className='champ'>ภาพตัวอย่างแชมป์เปี้ยนต่าง ๆ ที่อาศัยอยู่ใน Runeterra</h4>
+    <ul className='imgbox'>
+    <img src={darius} alt="jpg"/><img src={ash} alt="jpg"/><img src={zed} alt="jpg"/><img src={garen} alt="jpg"/>
+    <img src={ez} alt="jpg"/><img src={elise} alt="jpg"/><img src={zoe} alt="jpg"/><img src={cait} alt="jpg"/>
+    <img src={blitz} alt="jpg"/><img src={annie} alt="jpg"/><img src={gp} alt="jpg"/><img src={veigar} alt="jpg"/>
+    </ul>
 
 </div>
       );
