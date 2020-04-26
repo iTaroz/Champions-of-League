@@ -25,7 +25,6 @@ const Menu = props => {
                 </Nav>
                 <h5 className ='game'>League of Legends</h5>
                 <DropdownButton id="dropdown-basic-button" title="Menu">
-                <Dropdown.Item href="/">Champion</Dropdown.Item>
                 <Dropdown.Item href="/Aboutme">About me</Dropdown.Item>
                 <Dropdown.Item onClick={logout}>Logout</Dropdown.Item>
                </DropdownButton>

@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import {Carousel,Card,CardDeck,CardGroup} from 'react-bootstrap'
+import {Carousel,Card,CardGroup} from 'react-bootstrap'
 import Menu from './Menu';
 import './Info.css'
 import demacia from './img/demacia1.jpg'
@@ -11,10 +11,7 @@ import quin from './img/quin.jpg'
 
 class Demacia extends Component {
     render() {
-      // const [index, setIndex] = useState(0);
-      // const handleSelect = (selectedIndex, e) => {
-      //   setIndex(selectedIndex);
-      // };
+
       return (
         <div className='demacia'>
           <div><br/><br/><br/><Menu/></div>
@@ -57,19 +54,19 @@ class Demacia extends Component {
   <Card>
     <Card.Img variant="top" src={lux} className='champbox' />
     <Card.Body>
-      <Card.Title>Lux</Card.Title>
+      <Card.Title><a href="https://lol.garena.in.th/champions/gameinfo/Lux">Lux</a></Card.Title>
     </Card.Body>
   </Card>
   <Card>
     <Card.Img variant="top" src={vayne} className='champbox' />
     <Card.Body>
-      <Card.Title>Vayne</Card.Title>
+      <Card.Title><a href="https://lol.garena.in.th/champions/gameinfo/Vayne">Vayne</a></Card.Title>
     </Card.Body>
   </Card>
   <Card>
     <Card.Img variant="top" src={quin} className='champbox' />
     <Card.Body>
-      <Card.Title>Quinn</Card.Title>
+      <Card.Title><a href="https://lol.garena.in.th/champions/gameinfo/Quinn">Quinn</a></Card.Title>
     </Card.Body>
   </Card>
 </CardGroup>

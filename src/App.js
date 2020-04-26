@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Route,BrowserRouter,Link,Router } from 'react-router-dom';
+import { Route} from 'react-router-dom';
 import './App.css';
 import Login from './components/Login';
-import Menu from './components/Menu';
 import fire from './setting/fire';
 import Demacia from './components/Demacia';
 import Noxus from './components/Noxus';
