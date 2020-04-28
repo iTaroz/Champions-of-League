@@ -14,7 +14,7 @@ class Aboutme extends Component {
           <h3>นายปารินทร์ นาคจุติ</h3>
           <h3>กำลังศึกษาอยู่ในคณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์</h3>
           <h3>รหัสนักศึกษา 6035512011</h3>
-          
+
           <h3><a href="https://www.facebook.com/parin.nakjuti">Facebook</a></h3>
           </div>
           
